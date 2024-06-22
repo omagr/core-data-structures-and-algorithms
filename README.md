@@ -1,6 +1,9 @@
-# data-structures-and-algorithms
+```
+data-structures-and-algorithms
 
 ├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
 ├── data-structures
 │   ├── arrays
 │   │   ├── README.md
@@ -51,4 +54,4 @@
     ├── books.md
     ├── courses.md
     └── websites.md
-
+```
