@@ -8,13 +8,21 @@ In computer science and computer programming, a data type is a the type of value
 
 ### *What is Abstract Data Types*
 
-there might be a situation when we need operations for our user-defined data type which have to be defined. These operations can be defined only as and when we require them.
+Abstract Data type (ADT) is an anstract of a data structure which provides only the interface to which a data structure must adhere to.
 
+The definition of ADT only mentions what operations are to be performed but not how these operations will be implemented.
+
+there might be a situation when we need operations for our user-defined data type which have to be defined. These operations can be defined only as and when we require them.
 So, in order to simplify the process of solving problems, we can create data structures along with their operations, and such data structures that are not in-built are known as Abstract Data Type (ADT).
 
-Abstract Data type (ADT) is a type (or class) for objects whose behavior is defined by a set of values and a set of operations. The definition of ADT only mentions what operations are to be performed but not how these operations will be implemented.
+| ADT   | DT                                                                 |
+| ----- | ------------------------------------------------------------------ |
+| list  | dynamic array, linked list                                         |
+| queue | array based queue, linked list based queue, stack list based queue |
+| map   | tree map, hash map / hash table                                    |
 
-So a user only needs to know what a data type can do, but not how it will be implemented. Think of ADT as a black box which hides the inner structure and design of the data type.
+
+So a user only needs to know what a ADT can do, but not how it will be implemented. Think of ADT as a black box which hides the inner structure and design of the data type.
 ![Example Image](/resources/images/abt.jpg)
 
 ### *What is Data Structures?*

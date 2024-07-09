@@ -55,3 +55,5 @@ data-structures-and-algorithms
     ├── courses.md
     └── websites.md
 ```
+
+g++ -std=c++20 main.cpp && ./a.exe

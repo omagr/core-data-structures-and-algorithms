@@ -30,7 +30,19 @@ So, for the size of 20k operations
 * machine B will take simply 200 sec
 * ratio → A:B → 20000 / 200 → 100
 ```
-
+### Big-O Notation
+* n - size of input
+* complexities ordered in small to large
+  
+1. constant time:         O(1)
+2. logarithmic time:      O(log(n))
+3. linear time:           O(n)
+4. linearithmic time:     O(nlog(n))
+5. quadric time:          O(n^2)
+6. cubic time:            O(n^3)
+7. exponential time:      O(b^n), b > 1
+8. factorial time:        O(n!)
+   
 ### *Concept / Principles*
 
 general methodology for analyzing running time for algorithms.
@@ -155,6 +167,8 @@ Now, in the previous example, the given time complexity is O(4N3 + 3N2 + 8) and 
 
 * we can clearly observe if the value of N is a large number, the second term i.e. 3N^2 will also be a less significant term. For example, if the value of N is 10^5 then the term 310^10 becomes less significant with respect to 410^15. So, we can also avoid the lower values and the final time complexity will be O(4N^3)
 * A point to remember is that we can actually ignore the constant coefficients as well. For example, considering the time complexity O(4N^3) as O(N^3) is also correct.
+
+
 
 ### *Key terms and Terminology*
 
